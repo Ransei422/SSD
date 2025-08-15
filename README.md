@@ -29,7 +29,7 @@ pip install numpy astropy reproject astroalign scipy
 
 - `REFERENCE_IMAGE`: A FITS file of the static sky (reference).
 - `ANALYSIS_IMAGE`: A FITS file of the target sky, possibly containing new objects.
-- (OR call directly "detect(「reference img name」, 「analyze img name」)" in your pipeline)
+- (OR call directly "detect(reference img name, analyze img name)" in your pipeline)
 
 ### 2. Convert to Luminance (Optional Sensor-Specific)
 
