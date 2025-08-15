@@ -17,16 +17,15 @@ logging.basicConfig(
 )
 
 
+# CONFIG <START>
 # --------------------------
 
-# Images used as reference sample (usuall conditions)
+# Images used as reference sample
 REFERENCE_IMAGE = "reference.fit"
 # Images used for analysis (this one should contains SNe)
 ANALYSIS_IMAGE = "science.fit"
+# *USE [detect("reference_image_string", "analysis_image_String")] directly if you are building a pipeline
 
-# USE [detect("reference_image_string", "analysis_image_String")] directly if you are building a pipeline
-
-# --------------------------
 
 # Output image with found different
 DIF_IMG = "found_difference.fit"
@@ -37,6 +36,9 @@ USE_WSC = True
 USE_SEESTAR_LUMINANCE = True
 # Detection threshold
 NSIGMA = 1
+
+# --------------------------
+# CONFIG <END>
 
 
 
@@ -431,4 +433,5 @@ def detect(ref_img, ana_img) -> bool:
 
 
 if __name__ == '__main__':
+
     detect(REFERENCE_IMAGE, ANALYSIS_IMAGE)
