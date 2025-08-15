@@ -87,10 +87,10 @@ All processing steps are logged via the `logging` module.
 ---
 ## Sample
 <img width="1633" height="601" alt="" src="https://github.com/user-attachments/assets/9b8bbb4f-e087-4036-94d9-c47f6d31d573" /><br>
-- Artifically added a new star only in red channel of the image<br>
+-> Artifically added a new star only in red channel of the image<br>
 <br>
 <img width="504" height="379" alt="" src="https://github.com/user-attachments/assets/3c96dbfd-6064-48dd-bacf-70eb920a18f1" /><br>
-- Detected difference
+-> Detected difference
 
 ---
 
