@@ -1,6 +1,6 @@
 # Simple Supernova Detection for Seestar S50 smart telescope
 
-A Python-based pipeline for detecting transient astronomical events, such as supernovae, from stacked FITS images using Seestar S50. The program aligns images, converts RGB channels to luminance, and performs difference imaging to highlight new or bright objects.
+A Python-based pipeline for detecting transient astronomical events, such as novae or supernovae, from stacked FITS images using Seestar S50. The program aligns images, converts RGB channels to luminance, and performs difference imaging to highlight new or bright objects.
 
 ---
 
