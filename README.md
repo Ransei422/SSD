@@ -91,6 +91,10 @@ All processing steps are logged via the `logging` module.
 <br>
 <img width="504" height="379" alt="" src="https://github.com/user-attachments/assets/3c96dbfd-6064-48dd-bacf-70eb920a18f1" /><br>
 -> Detected difference
+<br>
+<br>
+## Sample at M24
+<img width="1292" height="1056" alt="" src="https://github.com/user-attachments/assets/caf960e8-e4e2-44d9-b0c8-aa2fef920aad" />
 
 ---
 
